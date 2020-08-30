@@ -28,7 +28,6 @@ namespace audio
     MidiOut::~MidiOut()
     {
         midiOutput->clearAllPendingMessages();
-        delete midiOutput;
     }
     
     MidiOut& MidiOut::getInstance()

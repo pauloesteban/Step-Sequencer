@@ -133,7 +133,7 @@ namespace audio
         /** Hash map for each playback setting parameters.*/
         HashMap<String, float> playbackSettings;
         /** Pointer for the sequencers virtual midi output device. */
-        juce::MidiOutput* midiOutput;
+        std::unique_ptr<MidiOutput> midiOutput;
         
         /** The list of events ready for playback. */
         MidiEventList eventList;

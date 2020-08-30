@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="TGH3dx" name="Step-Sequencer" projectType="guiapp" jucerVersion="5.3.2">
+<JUCERPROJECT id="TGH3dx" name="Step-Sequencer" projectType="guiapp" displaySplashScreen="1"
+              jucerFormatVersion="1">
   <MAINGROUP id="HjFOK0" name="Step-Sequencer">
     <GROUP id="{DFA4767C-E388-6E59-7D87-6FD4CB796BD9}" name="audio">
       <FILE id="aSmwAT" name="Audio.cpp" compile="1" resource="0" file="Source/audio/Audio.cpp"/>
